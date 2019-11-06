@@ -1,0 +1,35 @@
+h1 {
+    font-family: Courier New, Monospace;
+    font-size: 3vw;
+    color: blue;
+    margin-left: 0.7vw;
+}
+
+h2 {
+    font-family: Courier New, Monospace;
+    font-size: 1.5vw;
+    color: black;
+    margin-left: 1.7vw;
+}
+
+/* dots */
+div {
+    position: absolute;
+    border-radius: 50% 50%;
+}
+
+.help_message {
+    color: transparent;
+    margin-left: 1.7vw;
+}
+
+.help {
+    margin-left: 1.7vw;
+    color: blue;
+}
+
+.help:hover .help_message,
+.help_message:hover {
+    color: turquoise;
+    transition: color 0.6s;
+}
